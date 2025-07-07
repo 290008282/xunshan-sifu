@@ -1,0 +1,89 @@
+﻿
+* { margin: 0px; padding: 0px; }
+body, td, th { font-size: 14px; }
+body { font-size: 14px; color: rgb(255, 255, 255); background: rgb(34, 17, 9); margin: 0px; }
+a { font-size: 14px; color: rgb(255, 255, 255); }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; color: rgb(49, 41, 38); }
+a:hover { color: rgb(153, 0, 0); text-decoration: none; }
+a:active { text-decoration: none; color: rgb(153, 0, 0); }
+ul { margin: 0px; padding: 0px; list-style: none; }
+img { border: 0px; }
+#Flash { width: 1920px; height: 800px; position: absolute; left: 50%; margin: 0px auto 0px -960px; z-index: 2; }
+body { background-color: rgb(255, 255, 255); }
+#Flash { width: 1920px; height: 749px; position: absolute; top: 0px; left: 50%; margin-left: -960px; z-index: 0; }
+#header { width: 1280px; height: 94px; position: absolute; left: 50%; margin: 0px auto 0px -640px; z-index: 2500; }
+#logo { width: 302px; height: 147px; position: absolute; left: 50%; margin-left: -151px; }
+#menu ul { float: left; position: relative; }
+#menu ul li { float: left; height: 94px; text-align: center; position: relative; overflow: hidden; letter-spacing: -1px; }
+#menu ul li ._line { width: 100%; height: 0%; position: absolute; overflow: hidden; bottom: 0px; left: 0px; background: url("../images/bg_menu_line.png") left top repeat; }
+#menu ul li ._bomline { height: 7px; position: absolute; right: 0px; bottom: 0px; left: 0px; background: url("../images/bg_menu_line2.png") left top repeat; }
+#menu ul li:nth-child(3) { margin-right: 326px; }
+#menu ul li a { width: 159px; text-align: center; position: relative; padding-top: 21px; padding-bottom: 24px; background: url("../images/menu_bg.png") left top no-repeat; text-decoration: none; display: block; z-index: 2000; }
+#menu ul li a strong { line-height: 35px; position: relative; font-size: 24px; font-weight: normal; color: rgb(230, 218, 192); letter-spacing: 1px; display: block; }
+#menu ul li a span { position: relative; font-size: 11px; color: rgb(248, 236, 2); letter-spacing: 0px; display: block; }
+#bigBanner { width: 1920px; height: 636px; position: relative; min-width: 1280px; left: 50%; margin: 0px auto 0px -960px; /*! background: rgb(0, 0, 0); */ }
+#download { width: 520px; height: 145px; position: absolute; top: 486px; left: 50%; margin-left: -264px; padding-top: 27px; padding-left: 24px; background: url("../images/baibg.png") left top repeat; border-radius: 6px; z-index: 2000; }
+#download:hover { box-shadow: rgba(0, 0, 0, 0.42) 0px 0px 24px; }
+#download ul { float: left; }
+#download ul li { float: left; width: 154px; overflow: hidden; margin-right: 17px; margin-bottom: 14px; border-radius: 6px; }
+#download ul li.btn_bg_black { background-color: rgb(0, 0, 0); }
+#download ul li.btn_bg_black:hover { background: rgb(51, 51, 51); }
+#download ul li.btn_bg_red { background-color: rgb(213, 16, 25); } 
+#download ul li.btn_bg_red:hover { background-color: rgb(239, 41, 50); }
+#download ul li.btn_bg_red span { color: rgb(255, 255, 255); }
+#download ul li.btn_bg_orange { background-color: rgb(179, 117, 32); }
+#download ul li.btn_bg_orange:hover { background-color: rgb(217, 145, 45); }
+#download ul li.btn_bg_orange span { color: rgb(255, 255, 255); }
+#download ul li .icon_down { float: left; margin-right: -9px; }
+#download ul li .icon { width: 48px; height: 48px; margin: 0px auto 11px; background: url("../images/icon_down.png") left top no-repeat; display: block; }
+#download ul li:nth-of-type(1) { float: left; width: 154px; height: 119px; text-align: center; background: url("../images/bg_btnblue.png") left top no-repeat; }
+#download ul li:nth-of-type(1):hover { background-position: left bottom; }
+#download ul li:nth-of-type(1) strong { line-height: 22px; font-size: 15px; }
+#download ul li:nth-of-type(1) a { height: 106px; padding-top: 13px; padding-left: 0px; }
+#download ul li a { height: 43px; text-align: center; padding-top: 9px; padding-left: 14px; text-decoration: none; display: block; }
+#download ul strong { line-height: 18px; font-size: 16px; font-weight: normal; color: rgb(255, 255, 255); }
+#download ul span { text-align: center; font-family: "times new roman", times, serif; color: rgb(123, 123, 123); display: block; }
+.icon_down { width: 34px; height: 34px; background: url("../images/icon_link.png") left top no-repeat; display: inline-block; }
+.icon_down.icon_down1x1 { background-position: 0px 0px; }
+.icon_down.icon_down1x2 { background-position: 0px -34px; }
+.icon_down.icon_down1x3 { background-position: 0px -68px; }
+.icon_down.icon_down1x4 { background-position: 0px -102px; } 
+#logo2 { width: 388px; height: 203px; position: relative; margin-bottom: 49px; margin-left: -50px; display: block; }
+html, body, span, object, iframe, h1, h2, h3, h4, h5, p, blockquote, pre, a, address, code, del, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label { margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, audio, video { margin: 0px; padding: 0px; display: block; }
+html { text-size-adjust: none; }
+img { border: none; vertical-align: middle; }
+input, select, button { padding: 0px; margin: 0px; outline: none; font-family: inherit; vertical-align: middle; }
+textarea { font-family: inherit; padding: 0px; margin: 0px; }
+button { cursor: pointer; }
+html { overflow-x: hidden; }
+body { font-size: 12px; background-color: rgb(59, 58, 56); font-family: "Microsoft YaHei"; }
+ul, ol { list-style-type: none; }
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+h3, h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+i, em, address { font-style: normal; }
+a { text-decoration: none; color: rgb(79, 79, 79); }
+a:hover { text-decoration: underline; transition: color 200ms linear 0s, background-color 200ms linear 0s, border-color 200ms linear 0s; }
+a:active { }
+a:visited { }
+html, body, span, object, iframe, h1, h2, h3, h4, h5, p, blockquote, pre, a, address, code, del, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label { margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, audio, video { margin: 0px; padding: 0px; display: block; }
+html { text-size-adjust: none; }
+img { border: none; vertical-align: middle; }
+input, select, button { padding: 0px; margin: 0px; outline: none; font-family: inherit; vertical-align: middle; }
+textarea { font-family: inherit; padding: 0px; margin: 0px; }
+button { cursor: pointer; }
+html { overflow-x: hidden; }
+body { font-size: 12px; background-color: rgb(2, 2, 2); font-family: "Microsoft YaHei"; background: url(../images/bg1.jpg) repeat center top;}
+ul, ol { list-style-type: none; }
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+h3, h4 { font-size: 14px; }
+i, em, address { font-style: normal; }
+a { text-decoration: none; color: rgb(79, 79, 79); }
+a:hover { text-decoration: underline; transition: color 200ms linear 0s, background-color 200ms linear 0s, border-color 200ms linear 0s; }
+a:active { }
+a:visited { }
